@@ -1,0 +1,29 @@
+# Build artifacts
+build/
+cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+
+# Compiled files
+*.o
+*.a
+*.so
+*.so.*
+
+# Debug artifacts
+core
+core.*
+
+# Local environment and secrets
+.env
+.env.*
+!.env.example
+
+# Editor and IDE files
+.vscode/
+.idea/
+
+# OS-generated files
+.DS_Store
+Thumbs.db
